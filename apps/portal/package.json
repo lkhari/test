@@ -1,0 +1,51 @@
+{
+  "name": "portal",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint . --max-warnings 0 --report-unused-disable-directives",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": "tsx",
+    "ignorePatterns": []
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/error-message": "^2.0.1",
+    "@hookform/resolvers": "^3.3.4",
+    "@mui/icons-material": "^5.15.11",
+    "@mui/material": "^5.15.11",
+    "@mui/material-next": "6.0.0-alpha.124",
+    "@mui/x-date-pickers": "6.19.5",
+    "@tanstack/react-query": "^5.24.1",
+    "@tanstack/react-router": "1.17.4",
+    "aws-amplify": "6.0.18",
+    "dayjs": "^1.11.10",
+    "i18next": "23.10.0",
+    "i18next-browser-languagedetector": "7.2.0",
+    "mui-file-input": "^4.0.4",
+    "mui-forms": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "react-hot-toast": "2.4.1",
+    "react-i18next": "14.0.5",
+    "zod": "^3.22.4",
+    "zustand": "^4.5.1"
+  },
+  "devDependencies": {
+    "@tanstack/router-vite-plugin": "1.16.5",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint-config-tsx": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "^5.3.3",
+    "vite": "5.1.4"
+  }
+}

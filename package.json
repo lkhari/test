@@ -1,0 +1,38 @@
+{
+  "name": "bip",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prettier": "prettier --cache -w --log-level=error ."
+  },
+  "prettier": {
+    "importOrder": [
+      "^@core/(.*)$",
+      "^@ui/(.*)$",
+      "^[./]"
+    ],
+    "importOrderSortSpecifiers": true,
+    "plugins": [],
+    "printWidth": 100
+  },
+  "eslintConfig": {
+    "extends": [
+      "custom"
+    ],
+    "rules": {
+      "@typescript-eslint/ban-types": "off"
+    },
+    "root": true
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "4.3.0",
+    "@types/node": "^20.11.5",
+    "eslint": "^8.57.0",
+    "eslint-config-custom": "workspace:*",
+    "prettier": "^3.2.5",
+    "turbo": "^1.12.4",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "mui-forms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "eslintConfig": {
+    "extends": [
+      "tsx"
+    ],
+    "rules": {
+      "@typescript-eslint/ban-types": "off"
+    },
+    "root": true
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@mui/icons-material": "^5.15.11",
+    "@mui/material": "^5.15.11",
+    "@mui/x-date-pickers": "^6.19.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "react-i18next": "14.0.5",
+    "react-imask": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "^5.3.3"
+  }
+}
